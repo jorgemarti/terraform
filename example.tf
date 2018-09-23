@@ -6,6 +6,6 @@ resource "aws_instance" "web" {
   instance_type = "t2.micro"
 
 tags {
-  Name = "First Web Server"
+  Name = "Initial Web Server"
 }
 }
