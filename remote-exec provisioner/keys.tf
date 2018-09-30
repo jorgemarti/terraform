@@ -1,0 +1,4 @@
+resource "aws_key_pair" "deployer" {
+  key_name   = "deployer-key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCybBxa+NoQnuHiBiyho3M0ieQB3n8ct30CRadcSffMCVrW8wEwVdMORxRCgwrv72DNmhlU7XwCKE2KG57KiD+Tg/Rt9C3au6gWhPVSxvaycf00FaxQL86p89DerApjjsiuKxIR/J2Z734VL7BfufKWzILCa8Y5hLln2xJuwyoApHJ3ZdZHOeULbQWOtXmKjH6fUlRUTn2u8Ge3BdBq1v47YtBPzLhF3bSMSZMRhmXCXLui7TRXdGjAkx3BYsLQjBVUP586bJ1cVNBCFR6GgBw/LQlR6mYEGgIHuOXdsJbSwCD62SnRg8Bc64dZUVgqV4QM5V+b4bOi88SPiwebkQSV cockemc@indiana"
+}
